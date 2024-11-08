@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-logo{
+    padding: 5px;
+    margin: 5px;
+    &.logo{
+        width: 200px;
+        height: 40px;
+        position: absolute;
+
+    }
+}
+.list{
+display: flex;
+justify-content: space-between;
+padding: 5px ;
+}
+.list li{
+    padding: 5px;
+    list-style: none;
+    margin: 10px;
+}
+
+.button1{
+    border: 0 solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.button2{
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.button img{
+    height: 30px;
+   padding-top: 20px;
+
+}
+.banner{
+    width: 1512px;
+    height: 760px;
+    gap: 0px;
+    opacity: 0px;
+
+    position: absolute;
+    .rectangle{
+width:1500px 0px;
+        position:absolute;
+       z-index: -1;
+
+    }
+
+}
+
+
+#form-offer {
+    width: 1160px;
+    height: 344px;
+    border: 1px solid black;   border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 193px;
+    margin-left: 140px;
+    padding: 100px;
+    & select{
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    & input{
+        width: 615px;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+    }
+    & button{
+        width: 200px;
+        height: 30px;
+        background-color: #00EBC7;
+        border: 1px solid;
+        border-radius: 20px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+.p1{
+
+    font-size:20px ;
+    color: white;
+    margin-top: 170px;
+    border: 1px solid white;
+    width:135px ;
+    border-radius:25px ;
+    margin-left:650px ;
+    padding: 5px 11px ;
+
+}
+.traking{
+    width: 1512px;
+    height: 370px;
+    background-color: burlywood;
+    border: 1.5px solid burlywood;
+    border-radius: 10px;
+    z-index: -1 ;
+    padding: 60px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+    &traking-img {
+        width: 1220px;
+        height: 209px;
+        margin: 80px 146px;
+    }
+}
+
+.head{
+    padding: 50px 0 0 25px;
+    border: 1px solid black;
+    & .head-h1{
+        font-size: 30px;
+    }
+}
+.features{
+    width: 1180px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 160px;
+ & .div1{
+    text-align: center;
+ }
+ & .div2{
+    text-align: center;
+ }
+ & .div3{
+    text-align: center;
+ }
+    }
+.button-features{
+    margin: 0 50% 50px;
+    padding: 7px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.buyoffer{
+    padding: 140px 0px;
+    display: grid;
+
+}
+
+
+.buyoffer{
+    width: 750px;
+    height: 680px;
+    margin: 50px;
+
+
+    & .div4 {
+        width: 500px;
+        display: flex;
+        gap: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 50px;
+        text-align: center;
+    }
+    & .div5{
+        width: 500px;
+        display: flex;
+        gap: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    & .div6{
+        width: 500px;
+        display: flex;
+        gap: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+.buyoffer h1{
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+.buyoffer p{
+    padding: 30px 10px;
+}
+.buyoffer button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    margin: 25px 100px;
+}
+.selloffer{
+    height: 500px;
+    padding-top: 50px;
+
+
+    & .div4 {
+        width: 500px;
+        display: flex;
+        gap: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 50px;
+
+        text-align: center;
+    }
+    & .div5{
+        width: 500px;
+        display: flex;
+        gap: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    & .div6{
+        width: 500px;
+        display: flex;
+        gap: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+.selloffer h1{
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+.selloffer p{
+    padding: 30px 10px;
+}
+.selloffer button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    margin: 25px 100px;
+}
+table{
+    width: 1515px;
+    border: 1px solid black;
+    text-align: left;
+}
+ .td2{
+    width: 750px;
+    border-left: 1px solid black;
+    padding: 0 210px 0 ;
+    margin-left: 20px;
+}
+.paragraph{
+    width: 100%;
+    height: 600px;
+    background-color: #CFBAFF;
+    text-align: center;
+    font-size: 60px;
+    padding: 200px 0;
+    border:0 0 1px 0 solid black;
+ & .get{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    margin: 170px;
+ }
+}
+
+.spacio{
+    width: 100%;
+    height: 600px;
+     border-bottom: 1px solid #FFFFFF;
+     padding: 200px 450px 100px 100px;
+     color: white;
+     background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.spacio div{
+    text-align: justify;
+    font-size: 20px;
+}
+.spacio div h1{
+    font-size: 35px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: black;
+    text-align: justify;
+    padding: 40px 15px;
+}
